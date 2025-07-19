@@ -1,0 +1,27 @@
+{
+    "name": "laracrafz/ultra-valet",
+    "description": "A valet alternative built with caddy",
+    "type": "library",
+    "require-dev": {
+        "pestphp/pest": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laracrafz\\UltraValet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stephan-MC",
+            "email": "mundestephane13@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
